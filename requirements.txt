@@ -1,0 +1,7 @@
+RPi.GPIO
+pigpio
+numpy
+scipy
+opencv-python
+pillow
+matplotlib
