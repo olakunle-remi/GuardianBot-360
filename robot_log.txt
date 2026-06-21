@@ -1,0 +1,33 @@
+[2026-06-22 00:35:39] System Started. Patrol Initiated.
+[2026-06-22 00:35:39] Path clear (18cm). Moving forward.
+[2026-06-22 00:35:40] Path clear (46cm). Moving forward.
+[2026-06-22 00:35:41] Obstacle at 8cm. Stopping motor.
+[2026-06-22 00:35:42] Path clear (30cm). Moving forward.
+[2026-06-22 00:35:43] Path clear (16cm). Moving forward.
+[2026-06-22 00:35:44] Path clear (38cm). Moving forward.
+[2026-06-22 00:35:45] Path clear (19cm). Moving forward.
+[2026-06-22 00:35:46] Path clear (26cm). Moving forward.
+[2026-06-22 00:35:47] Obstacle at 5cm. Stopping motor.
+[2026-06-22 00:35:48] Path clear (16cm). Moving forward.
+[2026-06-22 00:35:49] Path clear (48cm). Moving forward.
+[2026-06-22 00:35:50] Path clear (17cm). Moving forward.
+[2026-06-22 00:35:51] Path clear (34cm). Moving forward.
+[2026-06-22 00:35:52] Path clear (11cm). Moving forward.
+[2026-06-22 00:35:53] Path clear (10cm). Moving forward.
+[2026-06-22 00:35:54] Path clear (37cm). Moving forward.
+[2026-06-22 00:35:55] Obstacle at 4cm. Stopping motor.
+[2026-06-22 00:35:56] Path clear (21cm). Moving forward.
+[2026-06-22 00:35:57] Path clear (34cm). Moving forward.
+[2026-06-22 00:35:58] Path clear (46cm). Moving forward.
+[2026-06-22 00:35:59] Path clear (20cm). Moving forward.
+[2026-06-22 00:36:00] Path clear (36cm). Moving forward.
+[2026-06-22 00:36:01] Path clear (48cm). Moving forward.
+[2026-06-22 00:36:02] Path clear (31cm). Moving forward.
+[2026-06-22 00:36:03] Path clear (15cm). Moving forward.
+[2026-06-22 00:36:04] Path clear (22cm). Moving forward.
+[2026-06-22 00:36:05] Obstacle at 9cm. Stopping motor.
+[2026-06-22 00:36:06] Path clear (43cm). Moving forward.
+[2026-06-22 00:36:07] Path clear (43cm). Moving forward.
+[2026-06-22 00:36:08] Obstacle at 9cm. Stopping motor.
+[2026-06-22 00:36:09] Obstacle at 6cm. Stopping motor.
+[2026-06-22 00:36:10] System Halted by user.
