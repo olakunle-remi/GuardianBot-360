@@ -31,3 +31,53 @@
 [2026-06-22 00:36:08] Obstacle at 9cm. Stopping motor.
 [2026-06-22 00:36:09] Obstacle at 6cm. Stopping motor.
 [2026-06-22 00:36:10] System Halted by user.
+[2026-06-22 01:05:56] System Initialized.
+[2026-06-22 01:05:56] Current State: PATROL | Dist: 12cm
+[2026-06-22 01:05:57] Current State: PATROL | Dist: 25cm
+[2026-06-22 01:05:58] Current State: PATROL | Dist: 36cm
+[2026-06-22 01:05:59] Current State: PATROL | Dist: 12cm
+[2026-06-22 01:06:00] Current State: PATROL | Dist: 16cm
+[2026-06-22 01:06:01] Current State: PATROL | Dist: 36cm
+[2026-06-22 01:06:02] Current State: PATROL | Dist: 35cm
+[2026-06-22 01:06:03] Current State: PATROL | Dist: 17cm
+[2026-06-22 01:06:04] Current State: PATROL | Dist: 24cm
+[2026-06-22 01:06:05] Current State: AVOIDING | Dist: 8cm
+[2026-06-22 01:06:06] Current State: PATROL | Dist: 21cm
+[2026-06-22 01:06:07] Current State: PATROL | Dist: 34cm
+[2026-06-22 01:06:09] Current State: PATROL | Dist: 19cm
+[2026-06-22 01:06:10] Current State: PATROL | Dist: 32cm
+[2026-06-22 01:06:11] Current State: PATROL | Dist: 10cm
+[2026-06-22 01:06:12] Current State: PATROL | Dist: 18cm
+[2026-06-22 01:06:13] Current State: PATROL | Dist: 27cm
+[2026-06-22 01:06:14] Current State: AVOIDING | Dist: 3cm
+[2026-06-22 01:06:15] Current State: PATROL | Dist: 37cm
+[2026-06-22 01:06:16] Current State: PATROL | Dist: 45cm
+[2026-06-22 01:06:17] Current State: PATROL | Dist: 35cm
+[2026-06-22 01:06:18] Current State: PATROL | Dist: 40cm
+[2026-06-22 01:06:19] Current State: PATROL | Dist: 46cm
+[2026-06-22 01:06:20] Current State: PATROL | Dist: 37cm
+[2026-06-22 01:06:21] Current State: PATROL | Dist: 12cm
+[2026-06-22 01:06:22] Current State: PATROL | Dist: 40cm
+[2026-06-22 01:06:23] Current State: PATROL | Dist: 36cm
+[2026-06-22 01:06:24] Current State: PATROL | Dist: 10cm
+[2026-06-22 01:06:25] Current State: PATROL | Dist: 37cm
+[2026-06-22 01:06:26] Current State: PATROL | Dist: 45cm
+[2026-06-22 01:06:27] Current State: PATROL | Dist: 20cm
+[2026-06-22 01:06:28] Current State: PATROL | Dist: 21cm
+[2026-06-22 01:06:29] Current State: PATROL | Dist: 27cm
+[2026-06-22 01:06:30] Current State: PATROL | Dist: 35cm
+[2026-06-22 01:06:31] Current State: PATROL | Dist: 25cm
+[2026-06-22 01:06:32] Current State: PATROL | Dist: 32cm
+[2026-06-22 01:06:33] Current State: PATROL | Dist: 42cm
+[2026-06-22 01:06:34] Current State: PATROL | Dist: 45cm
+[2026-06-22 01:06:35] Current State: PATROL | Dist: 33cm
+[2026-06-22 01:06:36] Current State: PATROL | Dist: 36cm
+[2026-06-22 01:06:37] Current State: PATROL | Dist: 18cm
+[2026-06-22 01:06:38] Current State: PATROL | Dist: 26cm
+[2026-06-22 01:06:39] Current State: AVOIDING | Dist: 7cm
+[2026-06-22 01:06:40] Current State: PATROL | Dist: 11cm
+[2026-06-22 01:06:41] Current State: PATROL | Dist: 32cm
+[2026-06-22 01:06:42] Current State: AVOIDING | Dist: 9cm
+[2026-06-22 01:06:43] Current State: PATROL | Dist: 40cm
+[2026-06-22 01:06:44] Current State: PATROL | Dist: 44cm
+[2026-06-22 01:06:44] System Halted.

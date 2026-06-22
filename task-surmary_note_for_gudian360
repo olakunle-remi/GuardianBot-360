@@ -1,0 +1,172 @@
+### GuardianBot-360: Project Documentation
+
+#### Phase 3: Observability & Data Persistence (Day 3)
+
+**Date:** June 22, 2026
+**Status:** Completed
+**Objective:** Enhance system reliability and troubleshooting capabilities by implementing an automated logging mechanism (the "Black Box").
+
+---
+
+### 1. Code Analysis
+
+#### **`src/plugins/logger_plugin.py`**
+
+* **Purpose:** Acts as the system’s persistent memory. It records all significant events, sensor readings, and state changes with a high-precision timestamp.
+* **Key Mechanism:**
+* **`datetime` Integration:** Uses the system clock to generate ISO-formatted timestamps, ensuring a chronological audit trail.
+* **I/O Handling:** Opens `robot_log.txt` in "append" (`"a"`) mode. This ensures that new data is added to the end of the file rather than overwriting previous patrol data.
+
+
+
+#### **Refined `main.py` (The Integration)**
+
+* **Purpose:** Orchestrates the communication between the `MotorController` (Actuator), `DistanceSensor` (Input), and `RobotLogger` (Output).
+* **Key Mechanism:** The main loop now functions as a **Telemetry-Enabled Controller**. It captures the `distance` variable and the `motor` state simultaneously, passing them to the logger. This creates a direct correlation between the robot's perception and its physical actions.
+
+---
+
+### 2. The Functional Value in Robotic Engineering
+
+In industrial and autonomous robotics, **Logging** is as important as the physical hardware itself.
+
+| Concept | Robotics Engineering Definition | Why it matters |
+| --- | --- | --- |
+| **Telemetry** | The collection of data at remote points and automatic transmission to receiving equipment for monitoring. | Essential for real-time health checks on hardware (e.g., motor voltage, sensor noise). |
+| **Black Box** | A secure, persistent record of the robot's "internal state" before a critical failure or collision. | Allows engineers to perform **Post-Mortem Analysis**—playing back the data to understand exactly why a failure occurred. |
+
+#### **From Reactive to Analyzable Behavior**
+
+By logging the system, you have shifted the robot from an "anonymous" execution loop to an **Observable System**. You are no longer just guessing why the robot stopped; you can now verify the distance threshold logic by inspecting the log file.
+
+---
+
+### 3. Summary of Day 3 Achievements
+
+* **Persistence Layer:** Successfully implemented a file-based recording system.
+* **Audit Trail:** Every patrol event is now documented with a timestamp, creating a historical record of system performance.
+* **System Maturity:** The GuardianBot-360 can now run unattended, and you can review the `robot_log.txt` file later to verify its performance.
+
+**Documentation Status:** The GuardianBot-360 is now a "Self-Monitoring" platform. This completes the foundational trio of Motor Control, Sensory Input, and System Logging.
+
+**With this stable foundation, would you like to move toward implementing a "Command Handler" to let you remotely control the robot, or are you interested in expanding the "senses" with a new sensor type?**
+
+
+
+
+
+
+
+For **Day 4**, we are moving into **"System State Management."**
+
+Currently, your robot only has two modes: "Moving" or "Stopped." In professional robotics, we use a **Finite State Machine (FSM)**. This allows the robot to handle more complex scenarios, like "Searching," "Avoiding," "Emergency Stop," and "Patrol."
+
+### **The Day 4 Mission: "The State Manager"**
+
+Instead of just `if/else` logic, we will create a `RobotState` manager that tracks what the robot is currently doing. This prevents the robot from getting confused if multiple sensors or events happen at the same time.
+
+---
+
+### **Step 1: The State Controller**
+
+Create a new file `src/plugins/state_manager.py`.
+
+```python
+class StateManager:
+    def __init__(self):
+        self.state = "IDLE"
+
+    def set_state(self, new_state):
+        if self.state != new_state:
+            print(f"State Change: {self.state} -> {new_state}")
+            self.state = new_state
+            
+    def get_state(self):
+        return self.state
+
+```
+
+---
+
+### **Step 2: Update `main.py**`
+
+We will now use this `StateManager` to make your robot "aware" of its behavior.
+
+```python
+import time
+from src.plugins.motor_controller import MotorController
+from src.plugins.sensor_plugin import DistanceSensor
+from src.plugins.logger_plugin import RobotLogger
+from src.plugins.state_manager import StateManager
+
+def run_patrol_loop():
+    motor = MotorController(pin=17)
+    sensor = DistanceSensor()
+    logger = RobotLogger()
+    states = StateManager()
+    
+    logger.log("System Initialized.")
+    
+    try:
+        while True:
+            distance = sensor.get_distance()
+            
+            # Logic: Assign state based on distance
+            if distance < 10:
+                states.set_state("AVOIDING")
+                motor.move("OFF")
+            else:
+                states.set_state("PATROL")
+                motor.move("ON")
+            
+            logger.log(f"Current State: {states.get_state()} | Dist: {distance}cm")
+            time.sleep(1)
+            
+    except KeyboardInterrupt:
+        logger.log("System Halted.")
+
+if __name__ == "__main__":
+    run_patrol_loop()
+
+```
+
+### **Why Day 4 is a Game Changer**
+
+1. **Readability:** Your `robot_log.txt` will now show you the *intent* of the robot (e.g., `State: AVOIDING`) rather than just the action it took.
+2. **Scalability:** If you want to add a "Battery Low" state later, you don't have to rewrite your entire `main.py` loop; you just add a new condition to your `StateManager`.
+3. **Conflict Resolution:** It stops the robot from trying to do two things at once, ensuring that the "Avoidance" logic always takes priority over the "Patrol" logic.
+
+**Would you like to try implementing this, and do you understand how the `StateManager` acts as the "Brain's" memory of what the robot is currently doing?**
+
+
+==========================================
+
+### GuardianBot-360: Project Summary (Days 1–4)
+
+Over the last four days, we have successfully engineered a professional-grade software architecture for an autonomous robot. By following a modular "Sense-Think-Act" framework, you have built a system that is testable, observable, and scalable.
+
+---
+
+### **Progress Overview**
+
+| Day | Topic | Engineering Achievement |
+| --- | --- | --- |
+| **Day 1** | **Hardware Abstraction** | Built a modular structure with a **HAL** (Hardware Abstraction Layer) to control hardware on both PC and Raspberry Pi. |
+| **Day 2** | **Sensory Integration** | Implemented a feedback loop, enabling the robot to "perceive" distance and react autonomously. |
+| **Day 3** | **Data Persistence** | Integrated a "Black Box" logger to record high-precision telemetry and state history. |
+| **Day 4** | **State Management** | Implemented a **Finite State Machine (FSM)** to organize robot "intent" (e.g., `PATROL` vs. `AVOIDING`). |
+
+---
+
+### **Core Competencies Developed**
+
+* **Modular Design:** You can now swap out plugins (e.g., replace a `MockSensor` with a `RealUltrasonicSensor`) without modifying the `main.py` core logic.
+* **System Observability:** Through `robot_log.txt`, you can now perform "post-mortem" analysis of the robot's behavior to identify logical errors.
+* **Autonomous Logic:** The system demonstrates a mature **Sense-Think-Act cycle**, where environmental input dictates the physical output via a controlled state-based transition.
+
+---
+
+### **Current System Status**
+
+The **GuardianBot-360** is now a fully functional "Brain" capable of independent patrol, obstacle avoidance, state tracking, and event logging. The foundation is stable, documented, and ready for advanced features such as path planning, manual overrides, or multi-sensor fusion.
+

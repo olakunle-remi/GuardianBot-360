@@ -1,41 +1,34 @@
-# src/core/main.py
 import time
 from src.plugins.motor_controller import MotorController
 from src.plugins.sensor_plugin import DistanceSensor
 from src.plugins.logger_plugin import RobotLogger
+from src.plugins.state_manager import StateManager
 
 def run_patrol_loop():
-    """
-    Main logic: Coordinates hardware modules and logs autonomous decisions.
-    """
-    # Initialize modules
     motor = MotorController(pin=17)
     sensor = DistanceSensor()
     logger = RobotLogger()
+    states = StateManager()
     
-    logger.log("System Started. Patrol Initiated.")
+    logger.log("System Initialized.")
     
     try:
         while True:
-            # 1. SENSE
             distance = sensor.get_distance()
             
-            # 2. THINK & 3. ACT
+            # Logic: Assign state based on distance
             if distance < 10:
-                msg = f"Obstacle at {distance}cm. Stopping motor."
+                states.set_state("AVOIDING")
                 motor.move("OFF")
             else:
-                msg = f"Path clear ({distance}cm). Moving forward."
+                states.set_state("PATROL")
                 motor.move("ON")
             
-            # Log the decision and wait
-            logger.log(msg)
+            logger.log(f"Current State: {states.get_state()} | Dist: {distance}cm")
             time.sleep(1)
             
     except KeyboardInterrupt:
-        logger.log("System Halted by user.")
-    except Exception as e:
-        logger.log(f"System Error: {e}")
+        logger.log("System Halted.")
 
 if __name__ == "__main__":
     run_patrol_loop()
