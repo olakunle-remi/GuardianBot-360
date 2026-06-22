@@ -81,3 +81,289 @@
 [2026-06-22 01:06:43] Current State: PATROL | Dist: 40cm
 [2026-06-22 01:06:44] Current State: PATROL | Dist: 44cm
 [2026-06-22 01:06:44] System Halted.
+[2026-06-22 11:36:33] System Initialized.
+[2026-06-22 11:36:33] Current State: AVOIDING | Dist: 7cm
+[2026-06-22 11:36:34] Current State: PATROL | Dist: 46cm
+[2026-06-22 11:36:35] Current State: PATROL | Dist: 42cm
+[2026-06-22 11:36:37] Current State: PATROL | Dist: 12cm
+[2026-06-22 11:36:38] Current State: PATROL | Dist: 40cm
+[2026-06-22 11:36:39] Current State: PATROL | Dist: 21cm
+[2026-06-22 11:36:40] Current State: PATROL | Dist: 27cm
+[2026-06-22 11:36:41] Current State: PATROL | Dist: 32cm
+[2026-06-22 11:36:42] Current State: AVOIDING | Dist: 2cm
+[2026-06-22 11:36:43] Current State: PATROL | Dist: 23cm
+[2026-06-22 11:36:44] Current State: PATROL | Dist: 16cm
+[2026-06-22 11:36:45] Current State: AVOIDING | Dist: 3cm
+[2026-06-22 11:36:46] Current State: PATROL | Dist: 34cm
+[2026-06-22 11:36:47] Current State: PATROL | Dist: 16cm
+[2026-06-22 11:36:48] Current State: PATROL | Dist: 49cm
+[2026-06-22 11:36:49] Current State: AVOIDING | Dist: 6cm
+[2026-06-22 11:36:50] Current State: PATROL | Dist: 31cm
+[2026-06-22 11:36:51] Current State: AVOIDING | Dist: 2cm
+[2026-06-22 11:36:52] Current State: PATROL | Dist: 21cm
+[2026-06-22 11:36:53] Current State: PATROL | Dist: 31cm
+[2026-06-22 11:36:54] Current State: PATROL | Dist: 33cm
+[2026-06-22 11:36:55] Current State: PATROL | Dist: 15cm
+[2026-06-22 11:36:56] Current State: PATROL | Dist: 10cm
+[2026-06-22 11:36:57] Current State: PATROL | Dist: 19cm
+[2026-06-22 11:36:58] Current State: PATROL | Dist: 35cm
+[2026-06-22 11:36:59] System Halted.
+[2026-06-22 12:30:31] System Initialized.
+[2026-06-22 12:30:31] Current distance: 50.0
+[2026-06-22 12:32:54] System Initialized.
+[2026-06-22 12:32:54] Current distance: 50.0
+[2026-06-22 12:32:55] Current distance: 24.0
+[2026-06-22 12:32:56] Current distance: 7.0
+[2026-06-22 12:32:57] Current distance: 23.0
+[2026-06-22 12:32:58] Current distance: 8.0
+[2026-06-22 12:32:59] Current distance: 42.0
+[2026-06-22 12:33:00] Current distance: 27.0
+[2026-06-22 12:33:01] Current distance: 28.0
+[2026-06-22 12:33:02] Current distance: 45.0
+[2026-06-22 12:33:03] Current distance: 2.0
+[2026-06-22 12:33:04] Current distance: 43.0
+[2026-06-22 12:33:05] Current distance: 4.0
+[2026-06-22 12:33:06] Current distance: 14.0
+[2026-06-22 12:33:07] Current distance: 13.0
+[2026-06-22 12:33:08] Current distance: 32.0
+[2026-06-22 12:33:09] Current distance: 28.0
+[2026-06-22 12:33:10] Current distance: 27.0
+[2026-06-22 12:33:11] Current distance: 24.0
+[2026-06-22 12:33:12] Current distance: 32.0
+[2026-06-22 12:33:13] Current distance: 25.0
+[2026-06-22 12:33:14] Current distance: 50.0
+[2026-06-22 12:33:15] Current distance: 45.0
+[2026-06-22 12:33:16] Current distance: 5.0
+[2026-06-22 12:33:17] Current distance: 46.0
+[2026-06-22 12:33:18] Current distance: 2.0
+[2026-06-22 12:33:19] Current distance: 9.0
+[2026-06-22 12:33:20] Current distance: 17.0
+[2026-06-22 12:33:21] Current distance: 29.0
+[2026-06-22 12:33:22] Current distance: 4.0
+[2026-06-22 12:33:23] Current distance: 46.0
+[2026-06-22 12:33:24] Current distance: 4.0
+[2026-06-22 12:33:25] Current distance: 45.0
+[2026-06-22 12:33:26] Current distance: 31.0
+[2026-06-22 12:33:27] Current distance: 36.0
+[2026-06-22 12:33:28] Current distance: 5.0
+[2026-06-22 12:33:29] Current distance: 13.0
+[2026-06-22 12:33:30] Current distance: 0.0
+[2026-06-22 12:33:31] Current distance: 22.0
+[2026-06-22 12:33:32] Current distance: 16.0
+[2026-06-22 12:33:33] Current distance: 16.0
+[2026-06-22 12:33:34] Current distance: 21.0
+[2026-06-22 12:33:36] Current distance: 21.0
+[2026-06-22 12:33:37] Current distance: 20.0
+[2026-06-22 12:33:38] Current distance: 46.0
+[2026-06-22 12:33:39] Current distance: 37.0
+[2026-06-22 12:33:40] Current distance: 24.0
+[2026-06-22 12:33:41] Current distance: 9.0
+[2026-06-22 12:33:42] Current distance: 34.0
+[2026-06-22 12:33:43] Current distance: 38.0
+[2026-06-22 12:33:44] Current distance: 6.0
+[2026-06-22 12:33:45] Current distance: 21.0
+[2026-06-22 12:33:46] Current distance: 46.0
+[2026-06-22 12:33:47] Current distance: 34.0
+[2026-06-22 12:33:48] Current distance: 16.0
+[2026-06-22 12:33:49] Current distance: 40.0
+[2026-06-22 12:33:50] Current distance: 46.0
+[2026-06-22 12:33:51] Current distance: 46.0
+[2026-06-22 12:33:52] Current distance: 16.0
+[2026-06-22 12:33:53] Current distance: 23.0
+[2026-06-22 12:33:54] Current distance: 13.0
+[2026-06-22 12:33:55] Current distance: 29.0
+[2026-06-22 12:33:56] Current distance: 6.0
+[2026-06-22 12:33:57] Current distance: 13.0
+[2026-06-22 12:33:58] Current distance: 50.0
+[2026-06-22 12:33:59] Current distance: 8.0
+[2026-06-22 12:34:00] Current distance: 15.0
+[2026-06-22 12:34:01] Current distance: 33.0
+[2026-06-22 12:34:02] Current distance: 23.0
+[2026-06-22 12:34:03] Current distance: 31.0
+[2026-06-22 12:34:04] Current distance: 36.0
+[2026-06-22 12:34:05] Current distance: 43.0
+[2026-06-22 12:34:06] Current distance: 42.0
+[2026-06-22 12:34:07] Current distance: 34.0
+[2026-06-22 12:34:08] Current distance: 1.0
+[2026-06-22 12:34:09] Current distance: 28.0
+[2026-06-22 12:34:10] Current distance: 29.0
+[2026-06-22 12:34:11] Current distance: 43.0
+[2026-06-22 12:34:12] Current distance: 46.0
+[2026-06-22 12:34:13] Current distance: 10.0
+[2026-06-22 12:34:14] Current distance: 4.0
+[2026-06-22 12:34:15] Current distance: 12.0
+[2026-06-22 12:34:16] Current distance: 32.0
+[2026-06-22 12:34:17] Current distance: 5.0
+[2026-06-22 12:34:18] Current distance: 30.0
+[2026-06-22 12:34:19] Current distance: 27.0
+[2026-06-22 12:34:20] Current distance: 27.0
+[2026-06-22 12:34:21] Current distance: 21.0
+[2026-06-22 12:34:22] Current distance: 4.0
+[2026-06-22 12:34:23] Current distance: 44.0
+[2026-06-22 12:34:24] Current distance: 39.0
+[2026-06-22 12:34:25] Current distance: 35.0
+[2026-06-22 12:34:26] Current distance: 42.0
+[2026-06-22 12:34:27] Current distance: 35.0
+[2026-06-22 12:34:28] Current distance: 40.0
+[2026-06-22 12:34:29] Current distance: 4.0
+[2026-06-22 12:34:30] Current distance: 27.0
+[2026-06-22 12:34:31] Current distance: 17.0
+[2026-06-22 12:34:32] Current distance: 8.0
+[2026-06-22 12:34:33] Current distance: 36.0
+[2026-06-22 12:34:34] Current distance: 38.0
+[2026-06-22 12:34:35] Current distance: 28.0
+[2026-06-22 12:34:36] Current distance: 2.0
+[2026-06-22 12:34:37] Current distance: 16.0
+[2026-06-22 12:34:38] Current distance: 25.0
+[2026-06-22 12:34:39] Current distance: 39.0
+[2026-06-22 12:34:40] Current distance: 46.0
+[2026-06-22 12:34:41] Current distance: 34.0
+[2026-06-22 12:34:42] Current distance: 16.0
+[2026-06-22 12:34:43] Current distance: 25.0
+[2026-06-22 12:34:44] Current distance: 21.0
+[2026-06-22 12:34:45] Current distance: 13.0
+[2026-06-22 12:34:46] Current distance: 12.0
+[2026-06-22 12:34:47] Current distance: 29.0
+[2026-06-22 12:34:48] Current distance: 32.0
+[2026-06-22 12:34:49] Current distance: 20.0
+[2026-06-22 12:34:50] Current distance: 34.0
+[2026-06-22 12:34:51] Current distance: 13.0
+[2026-06-22 12:34:52] Current distance: 21.0
+[2026-06-22 12:34:53] Current distance: 15.0
+[2026-06-22 12:34:54] Current distance: 34.0
+[2026-06-22 12:34:55] Current distance: 50.0
+[2026-06-22 12:34:56] Current distance: 5.0
+[2026-06-22 12:34:57] Current distance: 17.0
+[2026-06-22 12:34:58] Current distance: 32.0
+[2026-06-22 12:34:59] Current distance: 11.0
+[2026-06-22 12:35:00] Current distance: 47.0
+[2026-06-22 12:35:01] Current distance: 41.0
+[2026-06-22 12:35:02] Current distance: 47.0
+[2026-06-22 12:35:03] Current distance: 26.0
+[2026-06-22 12:35:04] Current distance: 21.0
+[2026-06-22 12:35:05] Current distance: 39.0
+[2026-06-22 12:35:06] Current distance: 16.0
+[2026-06-22 12:35:07] Current distance: 41.0
+[2026-06-22 12:35:08] Current distance: 2.0
+[2026-06-22 12:35:09] Current distance: 1.0
+[2026-06-22 12:35:10] Current distance: 49.0
+[2026-06-22 12:35:11] Current distance: 0.0
+[2026-06-22 12:35:12] Current distance: 14.0
+[2026-06-22 12:35:13] Current distance: 21.0
+[2026-06-22 12:35:14] Current distance: 43.0
+[2026-06-22 12:35:15] Current distance: 34.0
+[2026-06-22 12:35:16] Current distance: 16.0
+[2026-06-22 12:35:17] Current distance: 22.0
+[2026-06-22 12:35:18] Current distance: 47.0
+[2026-06-22 12:35:19] Current distance: 21.0
+[2026-06-22 12:35:21] Current distance: 1.0
+[2026-06-22 12:35:22] Current distance: 43.0
+[2026-06-22 12:35:23] Current distance: 47.0
+[2026-06-22 12:35:24] Current distance: 28.0
+[2026-06-22 12:35:25] Current distance: 20.0
+[2026-06-22 12:35:26] Current distance: 19.0
+[2026-06-22 12:35:27] Current distance: 20.0
+[2026-06-22 12:35:28] Current distance: 40.0
+[2026-06-22 12:35:29] Current distance: 12.0
+[2026-06-22 12:35:30] Current distance: 33.0
+[2026-06-22 12:35:31] Current distance: 50.0
+[2026-06-22 12:35:32] Current distance: 40.0
+[2026-06-22 12:35:33] Current distance: 31.0
+[2026-06-22 12:35:34] Current distance: 1.0
+[2026-06-22 12:35:35] Current distance: 41.0
+[2026-06-22 12:35:36] Current distance: 27.0
+[2026-06-22 12:35:37] Current distance: 37.0
+[2026-06-22 12:35:38] Current distance: 46.0
+[2026-06-22 12:35:39] Current distance: 32.0
+[2026-06-22 12:35:40] Current distance: 23.0
+[2026-06-22 12:35:41] Current distance: 30.0
+[2026-06-22 12:35:42] Current distance: 44.0
+[2026-06-22 12:35:43] Current distance: 45.0
+[2026-06-22 12:35:44] Current distance: 41.0
+[2026-06-22 12:35:45] Current distance: 25.0
+[2026-06-22 12:35:46] Current distance: 1.0
+[2026-06-22 12:35:47] Current distance: 17.0
+[2026-06-22 12:35:48] Current distance: 5.0
+[2026-06-22 12:35:49] Current distance: 49.0
+[2026-06-22 12:35:50] Current distance: 31.0
+[2026-06-22 12:35:51] Current distance: 33.0
+[2026-06-22 12:35:52] Current distance: 29.0
+[2026-06-22 12:35:53] Current distance: 20.0
+[2026-06-22 12:35:54] Current distance: 37.0
+[2026-06-22 12:35:55] Current distance: 10.0
+[2026-06-22 12:35:56] Current distance: 26.0
+[2026-06-22 12:35:57] Current distance: 12.0
+[2026-06-22 12:35:58] Current distance: 12.0
+[2026-06-22 12:35:59] Current distance: 22.0
+[2026-06-22 12:36:00] Current distance: 40.0
+[2026-06-22 12:36:01] Current distance: 36.0
+[2026-06-22 12:36:02] Current distance: 23.0
+[2026-06-22 12:36:03] Current distance: 4.0
+[2026-06-22 12:36:04] Current distance: 36.0
+[2026-06-22 12:36:05] Current distance: 5.0
+[2026-06-22 12:36:06] Current distance: 9.0
+[2026-06-22 12:36:07] Current distance: 29.0
+[2026-06-22 12:36:08] Current distance: 30.0
+[2026-06-22 12:36:09] Current distance: 21.0
+[2026-06-22 12:36:10] Current distance: 8.0
+[2026-06-22 12:36:11] Current distance: 39.0
+[2026-06-22 12:36:12] Current distance: 23.0
+[2026-06-22 12:36:13] Current distance: 21.0
+[2026-06-22 12:36:14] Current distance: 6.0
+[2026-06-22 12:36:15] Current distance: 42.0
+[2026-06-22 12:36:16] Current distance: 32.0
+[2026-06-22 12:36:17] Current distance: 25.0
+[2026-06-22 12:36:18] Current distance: 46.0
+[2026-06-22 12:36:19] Current distance: 13.0
+[2026-06-22 12:36:20] Current distance: 43.0
+[2026-06-22 12:36:21] Current distance: 4.0
+[2026-06-22 12:36:22] Current distance: 34.0
+[2026-06-22 12:36:23] Current distance: 32.0
+[2026-06-22 12:36:24] Current distance: 21.0
+[2026-06-22 12:36:25] Current distance: 48.0
+[2026-06-22 12:36:26] Current distance: 1.0
+[2026-06-22 12:36:27] Current distance: 23.0
+[2026-06-22 12:36:28] Current distance: 3.0
+[2026-06-22 12:36:29] Current distance: 7.0
+[2026-06-22 12:36:30] Current distance: 13.0
+[2026-06-22 12:36:31] Current distance: 20.0
+[2026-06-22 12:36:32] Current distance: 7.0
+[2026-06-22 12:36:33] Current distance: 1.0
+[2026-06-22 12:36:34] Current distance: 23.0
+[2026-06-22 12:36:35] Current distance: 29.0
+[2026-06-22 12:36:36] Current distance: 1.0
+[2026-06-22 12:36:37] Current distance: 26.0
+[2026-06-22 12:36:38] Current distance: 46.0
+[2026-06-22 12:36:39] Current distance: 3.0
+[2026-06-22 12:36:40] Current distance: 48.0
+[2026-06-22 12:36:41] Current distance: 24.0
+[2026-06-22 12:36:42] Current distance: 34.0
+[2026-06-22 12:36:43] Current distance: 45.0
+[2026-06-22 12:36:44] Current distance: 43.0
+[2026-06-22 12:36:45] Current distance: 27.0
+[2026-06-22 12:36:46] Current distance: 31.0
+[2026-06-22 12:36:47] Current distance: 19.0
+[2026-06-22 12:36:48] Current distance: 27.0
+[2026-06-22 12:36:49] Current distance: 17.0
+[2026-06-22 12:36:50] Current distance: 40.0
+[2026-06-22 12:36:51] Current distance: 38.0
+[2026-06-22 12:36:52] Current distance: 14.0
+[2026-06-22 12:36:53] Current distance: 47.0
+[2026-06-22 12:36:54] Current distance: 40.0
+[2026-06-22 12:36:55] Current distance: 18.0
+[2026-06-22 12:36:56] Current distance: 7.0
+[2026-06-22 12:36:57] Current distance: 22.0
+[2026-06-22 12:36:58] Current distance: 6.0
+[2026-06-22 12:36:59] Current distance: 30.0
+[2026-06-22 12:37:00] Current distance: 33.0
+[2026-06-22 12:37:01] Current distance: 37.0
+[2026-06-22 12:37:02] Current distance: 24.0
+[2026-06-22 12:37:03] Current distance: 13.0
+[2026-06-22 12:37:04] Current distance: 48.0
+[2026-06-22 12:37:05] Current distance: 13.0
+[2026-06-22 12:37:06] Current distance: 46.0
+[2026-06-22 12:37:07] Current distance: 27.0
+[2026-06-22 12:37:08] Current distance: 40.0
+[2026-06-22 12:37:09] Current distance: 14.0
+[2026-06-22 12:37:10] Current distance: 1.0
+[2026-06-22 12:37:11] System Halted.
