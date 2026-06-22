@@ -1,23 +1,34 @@
 import time
-# We will import our plugins here later
-# from src.plugins.sensor_manager import SensorManager
-
-def initialize_system():
-    print("Initializing GuardianBot-360...")
-    # Add your sensor/motor setup here
+from src.plugins.motor_controller import MotorController
+from src.plugins.sensor_plugin import DistanceSensor
+from src.plugins.logger_plugin import RobotLogger
+from src.plugins.state_manager import StateManager
 
 def run_patrol_loop():
-    print("Patrol Mode Active.")
+    motor = MotorController(pin=17)
+    sensor = DistanceSensor()
+    logger = RobotLogger()
+    states = StateManager()
+    
+    logger.log("System Initialized.")
+    
     try:
         while True:
-            # Main Decision Loop
-            # 1. Read Sensors
-            # 2. Update State Machine
-            # 3. Execute Actuator Command
-            time.sleep(0.1)
+            distance = sensor.get_distance()
+            
+            # Logic: Assign state based on distance
+            if distance < 10:
+                states.set_state("AVOIDING")
+                motor.move("OFF")
+            else:
+                states.set_state("PATROL")
+                motor.move("ON")
+            
+            logger.log(f"Current State: {states.get_state()} | Dist: {distance}cm")
+            time.sleep(1)
+            
     except KeyboardInterrupt:
-        print("System Halted.")
+        logger.log("System Halted.")
 
 if __name__ == "__main__":
-    initialize_system()
     run_patrol_loop()

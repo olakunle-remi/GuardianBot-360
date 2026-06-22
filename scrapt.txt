@@ -1,0 +1,87 @@
+firt main.py 
+
+
+
+
+
+
+second main.py
+
+
+import time
+import platform
+
+# --- Hardware Abstraction Layer ---
+if platform.system() == "Windows":
+    class MockGPIO:
+        BCM = 1
+        OUT = 1
+        HIGH = 1
+        LOW = 0
+        def setmode(self, mode): print("Mock: Mode set to BCM")
+        def setup(self, pin, mode): print(f"Mock: Pin {pin} setup as output")
+        def output(self, pin, value): print(f"Mock: Pin {pin} set to {value}")
+    GPIO = MockGPIO()
+else:
+    import RPi.GPIO as GPIO
+
+# --- Core Logic ---
+def initialize_system():
+    print("Initializing GuardianBot-360...")
+    GPIO.setmode(GPIO.BCM)
+    GPIO.setup(17, GPIO.OUT) # Assuming pin 17 is a motor/LED
+
+def run_patrol_loop():
+    print("Patrol Mode Active. Press Ctrl+C to stop.")
+    try:
+        while True:
+            # Simulate a robot action
+            GPIO.output(17, GPIO.HIGH)
+            time.sleep(1)
+            GPIO.output(17, GPIO.LOW)
+            time.sleep(1)
+    except KeyboardInterrupt:
+        print("\nSystem Halted.")
+
+if __name__ == "__main__":
+    initialize_system()
+    run_patrol_loop()
+======motor_controller.py=======
+import time
+import platform
+
+# --- Hardware Abstraction Layer ---
+if platform.system() == "Windows":
+    class MockGPIO:
+        BCM = 1
+        OUT = 1
+        HIGH = 1
+        LOW = 0
+        def setmode(self, mode): print("Mock: Mode set to BCM")
+        def setup(self, pin, mode): print(f"Mock: Pin {pin} setup as output")
+        def output(self, pin, value): print(f"Mock: Pin {pin} set to {value}")
+    GPIO = MockGPIO()
+else:
+    import RPi.GPIO as GPIO
+
+# --- Core Logic ---
+def initialize_system():
+    print("Initializing GuardianBot-360...")
+    GPIO.setmode(GPIO.BCM)
+    GPIO.setup(17, GPIO.OUT) # Assuming pin 17 is a motor/LED
+
+def run_patrol_loop():
+    print("Patrol Mode Active. Press Ctrl+C to stop.")
+    try:
+        while True:
+            # Simulate a robot action
+            GPIO.output(17, GPIO.HIGH)
+            time.sleep(1)
+            GPIO.output(17, GPIO.LOW)
+            time.sleep(1)
+    except KeyboardInterrupt:
+        print("\nSystem Halted.")
+
+if __name__ == "__main__":
+    initialize_system()
+    run_patrol_loop()
