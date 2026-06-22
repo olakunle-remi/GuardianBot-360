@@ -82,7 +82,7 @@ The `src/plugins/` directory is where you will add new "capabilities." For examp
 ## day 1 to day360 chart 
 these for easy tracking:  excution of code and study check progress   
 **Phase 1**
-# Guiddian360 Project: 30-Day Foundation Roadmap
+# GuardianBot-360 Project: 30-Day Foundation Roadmap
 
 |   Day | Topic                       | Summary                                   |
 |------:|:----------------------------|:------------------------------------------|
@@ -118,7 +118,7 @@ these for easy tracking:  excution of code and study check progress
 |    30 | Phase 1 Final Review        | Final check of Phase 1.                   |
 
 **Phase 2**
-# Guiddian360 Project: 31-60 Day Roadmap (Phase 2: Kinematics & Sensors)
+# GuardianBot-360 Project: 31-60 Day Roadmap (Phase 2: Kinematics & Sensors)
 
 |   Day | Topic                      | Summary                                      |
 |------:|:---------------------------|:---------------------------------------------|
@@ -155,7 +155,7 @@ these for easy tracking:  excution of code and study check progress
 
 
 
-# Guiddian360 Project: 61-90 Day Roadmap (Phase 1 Conclusion)
+# GuardianBot-360 Project: 61-90 Day Roadmap (Phase 1 Conclusion)
 
 |   Day | Topic                     | Summary                                  |
 |------:|:--------------------------|:-----------------------------------------|
@@ -192,7 +192,7 @@ these for easy tracking:  excution of code and study check progress
 
 **Phase 2**
 
-# Guiddian360 Project: 91-120 Day Roadmap (Phase 2: Hardware Expansion)
+# GuardianBot-360 Project: 91-120 Day Roadmap (Phase 2: Hardware Expansion)
 
 |   Day | Topic                          | Summary                               |
 |------:|:-------------------------------|:--------------------------------------|
@@ -228,7 +228,7 @@ these for easy tracking:  excution of code and study check progress
 |   120 | Phase 2 Midpoint Review        | Analyze progress vs goals.    
 
 
-# Guiddian360 Project: 121-150 Day Roadmap (Phase 2: Advanced Kinematics)
+# GuardianBot-360 Project: 121-150 Day Roadmap (Phase 2: Advanced Kinematics)
 
 |   Day | Topic                           | Summary                                |
 |------:|:--------------------------------|:---------------------------------------|
@@ -264,7 +264,7 @@ these for easy tracking:  excution of code and study check progress
 |   150 | Performance Bottleneck Analysis | Find and fix performance issues.   
 
 
-# Guiddian360 Project: 151-180 Day Roadmap (Phase 2 Conclusion)
+# GuardianBot-360 Project: 151-180 Day Roadmap (Phase 2 Conclusion)
 
 |   Day | Topic                           | Summary                                 |
 |------:|:--------------------------------|:----------------------------------------|
@@ -301,7 +301,7 @@ these for easy tracking:  excution of code and study check progress
 
 **phase 3**
 
-# Guiddian360 Project: 151-180 Day Roadmap (Phase 2 Conclusion)
+# GuardianBot-360 Project: 151-180 Day Roadmap (Phase 2 Conclusion)
 
 |   Day | Topic                           | Summary                                 |
 |------:|:--------------------------------|:----------------------------------------|
@@ -337,7 +337,7 @@ these for easy tracking:  excution of code and study check progress
 |   180 | Phase 3 Preparations            | Outline transition to Phase 3.          |
 
 
-# Guiddian360 Project: 211-240 Day Roadmap (Phase 3: Advanced Autonomy)
+# GuardianBot-360 Project: 211-240 Day Roadmap (Phase 3: Advanced Autonomy)
 
 |   Day | Topic                             | Summary                                    |
 |------:|:----------------------------------|:-------------------------------------------|
@@ -372,7 +372,7 @@ these for easy tracking:  excution of code and study check progress
 |   239 | Phase 3 Midpoint Review           | Check autonomy against 240-day goals.      |
 |   240 | Navigation Architecture Review    | Analyze core navigation code.              |
 
-# Guiddian360 Project: 241-270 Day Roadmap (Phase 3 Conclusion)
+# GuardianBot-360 Project: 241-270 Day Roadmap (Phase 3 Conclusion)
 
 |   Day | Topic                             | Summary                               |
 |------:|:----------------------------------|:--------------------------------------|
@@ -409,7 +409,7 @@ these for easy tracking:  excution of code and study check progress
 
 **phase 4**
 
-# Guiddian360 Project: 271-300 Day Roadmap (Phase 4: Vision & Synthesis)
+# GuardianBot-360 Project: 271-300 Day Roadmap (Phase 4: Vision & Synthesis)
 
 |   Day | Topic                           | Summary                                |
 |------:|:--------------------------------|:---------------------------------------|
@@ -444,7 +444,7 @@ these for easy tracking:  excution of code and study check progress
 |   299 | Phase 4 Midpoint Review         | Assess vision accuracy.                |
 |   300 | Vision System Audit             | Check AI model performance.            |
 
-# Guiddian360 Project: 301-330 Day Roadmap (Phase 4: Advanced Vision & AI)
+# GuardianBot-360 Project: 301-330 Day Roadmap (Phase 4: Advanced Vision & AI)
 
 |   Day | Topic                           | Summary                                  |
 |------:|:--------------------------------|:-----------------------------------------|
@@ -484,7 +484,7 @@ these for easy tracking:  excution of code and study check progress
 
 
 
-# Guiddian360 Project: 331-360 Day Roadmap (Phase 4 Conclusion)
+# GuardianBot-360 Project: 331-360 Day Roadmap (Phase 4 Conclusion)
 
 |   Day | Topic                                 | Summary                                    |
 |------:|:--------------------------------------|:-------------------------------------------|
